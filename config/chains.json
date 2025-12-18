@@ -1,0 +1,33 @@
+{
+    "chains": {
+        "sepolia": {
+            "chainId": 11155111,
+            "name": "Sepolia Testnet",
+            "rpcEnvVar": "SEPOLIA_RPC_URL",
+            "explorerUrl": "https://sepolia.etherscan.io",
+            "contractAddress": ""
+        },
+        "base": {
+            "chainId": 8453,
+            "name": "Base Mainnet",
+            "rpcEnvVar": "BASE_RPC_URL",
+            "explorerUrl": "https://basescan.org",
+            "contractAddress": ""
+        },
+        "baseSepolia": {
+            "chainId": 84532,
+            "name": "Base Sepolia Testnet",
+            "rpcEnvVar": "BASE_SEPOLIA_RPC_URL",
+            "explorerUrl": "https://sepolia.basescan.org",
+            "contractAddress": ""
+        },
+        "hardhat": {
+            "chainId": 31337,
+            "name": "Hardhat Local",
+            "rpcEnvVar": "HARDHAT_RPC_URL",
+            "explorerUrl": "",
+            "contractAddress": ""
+        }
+    },
+    "defaultChain": "sepolia"
+}

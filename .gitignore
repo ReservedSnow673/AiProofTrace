@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+artifacts/
+cache/
+typechain-types/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+coverage.json
